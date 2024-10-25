@@ -18,6 +18,18 @@ background-color: #0d0d0d;
 background-color: #0d0d0d;
 }
 
+
+.one-column {
+  height: 1400px;
+  width: 1100px;
+  background-image: url('part44.jpeg') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.one-column p {
+  color: white;
+}
 .city-picture {
   width: 500px;
 }
@@ -58,7 +70,7 @@ header h2 {
   padding: 40px;
 }
 footer {
-  background-color: #c9c6c5;
+  background-color: #031636;
   padding: 40px;
 }
 footer p {
@@ -94,7 +106,9 @@ footer p {
 #projects .two-column {
   padding: 10px;
 }
-.three-column {
+
+
+#contacts .three-column {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   padding: 40px;
@@ -106,3 +120,112 @@ footer p {
   margin-righ: 10px;
   margin-left: 10px;
 }
+
+.four-column {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.four-column div {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.instagram-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #402f59;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.instagram-button:hover {
+  background-color: #C13584;
+}
+
+.LinkedIn-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #402f59;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.LinkedIn-button:hover {
+  background-color: #C13584;
+}
+
+.Email-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #402f59;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.Email-button:hover {
+  background-color: #C13584;
+}
+
+.Call-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #402f59;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.Call-button:hover {
+  background-color: #C13584;
+}
+
+p {
+  font-family: 'Courier New', monospace;
+  font-weight: normal;
+  color: white;
+      }
+
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-family: 'Courier New', monospace;
+  font-weight: normal;
+  color: white;
+  font-size: 36px;
+}
+
+.one-column {
+            text-align: center;
+        }
+
+.Invest-button {
+          display: inline-block;
+          padding: 20px 40px;
+          background-color: #7fa4c9;
+          color: white;
+          text-decoration: none;
+          font-size: 30px;
+          border-radius: 5px;
+          transition: background-color 0.3s ease;
+
+        }
+
+.Invest-button:hover {
+          background-color: #C13584;
+        }
